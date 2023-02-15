@@ -1,0 +1,21 @@
+{
+  "name": "utube_script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/index.ts"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/postgres": "^5.2.0",
+    "@types/node": "^18.13.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.13.0",
+    "path": "^0.12.7",
+    "pg": "^8.9.0",
+    "ts-node": "^10.9.1"
+  }
+}
