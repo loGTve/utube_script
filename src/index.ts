@@ -10,6 +10,11 @@ fastify.register(fastifystatic, {
     root: path.join(__dirname, '../public')
 });
 
+fastify.get('/', async (req, reply) => {
+    reply
+        .code(200)
+        .type('application/json');
+});
 
 fastify.get('/player_show', async (req, reply) => {
     return reply.sendFile('index.html');
